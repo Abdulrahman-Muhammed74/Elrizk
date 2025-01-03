@@ -1,0 +1,25 @@
+$primary-color: #eff2f7;
+
+// spacing scale
+$spacing-scale: (
+  "Space/100": 4px,
+  "Space/200": 8px,
+  "Space/300": 12px,
+  "Space/400": 16px,
+  "Space/500": 24px,
+  "Space/600": 32px,
+);
+@function get-spacing($key) {
+  @return map-get($spacing-scale, $key);
+}
+// @font-face {
+//   font-family: "SFProRounded";
+//   src: url("/fonts/SF-Pro-Rounded-Bold.otf") format("opentype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+body {
+  font-family: sans-serif;
+  background-color: $primary-color !important;
+}

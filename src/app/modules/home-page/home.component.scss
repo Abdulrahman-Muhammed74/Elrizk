@@ -1,0 +1,258 @@
+@import "../../../styles.scss";
+.blank {
+  width: 97%;
+  height: 20px;
+  background-color: white;
+  margin-left: 22px;
+  border-radius: 15px 15px 0 0;
+}
+.lefSideMenu {
+  width: 273px;
+  // height: 692px;
+  background-color: white;
+
+  padding: 16px;
+  margin-left: 22px;
+  border: 0px 1px 0px 0px;
+}
+.switchBtns {
+  width: 126px;
+  height: 37px;
+  padding: 4px;
+  border-radius: 12px;
+  background-color: rgba(239, 242, 247, 1);
+  justify-content: center;
+  align-items: center;
+}
+.switchBtns button {
+  border: none;
+}
+.buyer,
+.seller {
+  border-radius: 8px;
+  width: 58px;
+  height: 29px;
+  padding: 4px 8px 5px 8px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.buyer {
+  background-color: white;
+}
+.seller {
+  color: rgba(18, 10, 22, 0.4);
+}
+.title {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+}
+.quickAccess {
+  width: 241px;
+  height: 184px;
+}
+.card {
+  width: 75px;
+  height: 75px;
+  border-radius: 12px;
+  background-color: rgba(239, 242, 247, 1);
+  border: none;
+  margin-right: 7px;
+  align-items: center;
+  justify-content: center;
+}
+.card .label {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 6px;
+}
+.card img {
+  width: 25px;
+  height: 24px;
+}
+.subscTitle {
+  font-size: 15px;
+  font-weight: 500;
+}
+.contactUs {
+  width: 241px;
+  height: 41px;
+  padding: 10px;
+  border-radius: 16px;
+  background-color: rgba(239, 242, 247, 1);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contactUs button {
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 20px;
+}
+.rightSideMenu {
+  width: 273px;
+  background-color: white;
+  margin-right: 18px;
+}
+.bar {
+  width: 241px;
+  height: 36px;
+}
+.bigTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+.smallTitle {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(18, 10, 22, 0.4);
+}
+.discover {
+  height: 34px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(239, 242, 247, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discover button {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+.content {
+  background-color: white;
+  border-radius: 10px;
+}
+.search {
+  width: 97%;
+  height: 319px;
+
+  background-color: #2d1945;
+  border-radius: 12px;
+}
+.searchHeader h1 {
+  font-size: 41px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+.searchInput {
+  position: relative;
+  display: inline-block;
+}
+
+.searchInput input {
+  padding-left: 50px;
+  box-sizing: border-box;
+  background: url("/assets/icons/Input-Search.png") no-repeat left center,
+    url("/assets/icons/send.svg") no-repeat right center;
+  background-size: 31px 30px, 39px 38px;
+  background-color: rgba(18, 10, 22, 1);
+  background-position: 10px center, calc(100% - 10px) center;
+  width: 526px;
+  height: 65px;
+  border-radius: 12px;
+  background-color: rgba(18, 10, 22, 1);
+  border: 2px solid rgba(182, 100, 219, 1);
+  box-shadow: 0px 0px 136.3px rgba(205, 78, 255, 0.6);
+  color: white;
+  position: relative;
+}
+.searchInput input::placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+.leftContent {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+.small {
+  font-size: 12px !important;
+  font-weight: 400;
+}
+
+.reqBtn button {
+  width: 148px;
+  height: 34px;
+  padding: 8px;
+  border-radius: 12px;
+  background-color: rgba(182, 100, 219, 1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+.supplires {
+}
+.viewAll {
+  // width: 126px;
+  height: 34px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(239, 242, 247, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.viewAll button {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.outletCard {
+  border: 1px solid rgba(239, 242, 247, 1);
+  border-radius: 12px;
+  padding: 8px;
+  width: 277px;
+}
+.PartNum {
+  color: rgba(18, 10, 22, 0.4);
+  font-size: 15px;
+  font-weight: 500;
+}
+.units {
+  font-size: 20px;
+  font-weight: 700;
+  color: black !important;
+}
+.Stock {
+  font-size: 17px;
+  font-weight: 700;
+}
+.discoverBtn {
+  border: none;
+  width: 125px;
+  height: 34px;
+  border: 1px solid rgba(239, 242, 247, 1);
+  border-radius: 12px;
+  background-color: transparent;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(222, 220, 233, 1);
+}
+.PartRef {
+  color: rgba(18, 10, 22, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(18, 10, 22, 0.4);
+}
