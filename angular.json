@@ -24,8 +24,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/el-rizk-crm",
+            "outputPath": "docs",
             "index": "src/index.html",
+            "baseHref": "/ELRIZK/",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
