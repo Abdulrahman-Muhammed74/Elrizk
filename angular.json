@@ -26,12 +26,10 @@
           "options": {
             "outputPath": "dist/el-rizk-crm",
             "index": "src/index.html",
-            "main": "src/main.ts",
             "browser": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "baseHref": "/ELRIZK/",
             "assets": [
               {
                 "glob": "**/*",
